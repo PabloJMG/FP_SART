@@ -1,0 +1,1156 @@
+%!PS-Adobe-2.0
+%%Title: img/imSART/NumAng_50_Numpix_150,dim_100x100__0.png
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Thu Jul 13 11:56:50 2017
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (img/imSART/NumAng_50_Numpix_150,dim_100x100__0.png)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (pablo)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Jul 13 11:56:50 2017)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+/Helvetica findfont 140 scalefont setfont
+/vshift -46 def
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor false def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+false { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-20)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 936 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 936 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 1592 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 1592 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 2248 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 2248 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 2903 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 2903 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 60)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 3559 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 3559 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 80)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4215 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4215 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4871 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 120)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+546 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-20)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1332 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+1332 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2117 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+2117 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2903 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+2903 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 40)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3689 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+3689 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 60)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4475 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+4475 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 80)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5260 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+5260 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6046 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+6046 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 120)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LTb
+LCb setrgbcolor
+/Helvetica findfont 140 scalefont setfont
+LCb setrgbcolor
+5395 4738 M
+('/home/pablo/local.git/pablo/res/Resultados_SART/Resultados_SART_1.txt') Rshow
+1.000 UL
+LTb
+LCb setrgbcolor
+%%%%BeginImage
+gsave 546 4871 N 546 280 L 6046 280 L 6046 4871 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  1312 4855 M
+  4714 0 V
+  0 -3936 V
+  -4714 0 V
+  1312 4855 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 18232 string def
+  currentfile imagebuf readstring
+} {
+  gsave
+  {pm3dGamma exp} settransfer
+  1312 4855 translate
+  4714 -3936 scale
+  120 120 8
+  [ 120 0 0 120 0 0 ]
+  currentfile /ASCII85Decode filter
+  image
+} ifelse
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`3tdF$@hc-=MXc-=APaiVN@`Pog4_8*k!\[o>]\@8f
+KYc+Y+X/DhkSXZ"*M2;ua(`F6ILkL`+_p$9KdEU%ccHjnbcdC.fdF$@hdF$@hdF$@hcI(%edF$@hdF
+$@hdF$Lpe^`4#e^`4#e^`4#e^`4#e^`3tdF$@hc-=MXc,n)LaiVN@`Po^2_83k"]XkYa\[&WNYHOUf
+R"ZCr*$$%?+!;^N,9\0N+!DdM*ZQ#AJ\]=RdF$@hd*^7gdF$@hdF$@hdF$@hcd:(edF$@hdF$@hdF$
+Lpe^`4#e^`4#e^`4#e^`4#e^`3tdF$@hc-=MXc-"2Ob/VH@`l>m4_S*^u^::\a\@8ZESrOd3*ZlRO-
+7C8k.4Qi!/1W.t-n-Sn-6aNP*??)?]>r+8bKJ&SdaHLjdaHRldaHRldaHRldaHRldaHRldaH[re^`4
+#e^`4#e^`4#e^`4#e^`3tdF$@hc-=MXc-"2Ob/D<>`l#U.^V@Os]XbS\Xeh."*ZlOO-RgPs0/,+80f
+(XC1c$mA0JP=;0.SFt-70r[)]!:t_p$3Fbfn2Qbfn;ZdaHRldaHOkdaHRldaHRldaH[re^`4#e^`4#
+e^`4#e^`4#e^`3tdF$@hc-=MXb0%lLb/VH@_o'=+^VIUt]Xb/>)]g(E,:4ik0/57?2E*TU3BB5`4$#
+A]3&ruY2Dd*?0.nb(,Tn*G)1'$9c-"5Rbfn;Tbfn;TbfnD\daHRldaHRldaH[re^`4#e^`4#e^`4#e
+^`4#e^`3tdF$@hcHa_\b0%lL`l?$<_SX4(^;.Fq[@eBW+!N!Z.P<D32E3]Y4Zttn5<qM#5s[_"5!M7
+q4ZYMZ2Dm9F/1Dnk+WVPJ`5BR6c-+AVc-=JVbfn;Tbfn;TbfnM`daH[re^`4#e^`4#e^`4#e^`4#e^
+`3tdF$@hcHa_\b0%lLa2c3;_o':(]tLnR'c@r5,q1Au1,LpN4?btq6:4+.77B[87Rfg76psF269m[q
+4?GS_1GCC2-m^&Z*OE`*`5]j;bK\;Vc-=MXc-";Tbfn;TbfnVfe^`4#e^`4#e^`4#e^`4#e^`3tdF$
+@ecHa_\b/qfJ`Pom9`5BC*\>g,U)''nK.k`Y82`a&b5sdt.7n6*A8P)NI91hcI84cBD7n,g15s[^u3
+ArZK0.eV!+W_Z;]u\:7`lH-?cHa_\bK\;Vc-=MXc-=ehe^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHa_
+\b0%lI`l,a4`50'jPS"ZM+=&?d0Jk^L4?c"s77Tm@92&#R9hnJ[:JX\Z9MJ5U91hZB77BU15!(b`2)
+?p;-R0cVDSO')aN2ECaN)?AcHa_\cHa_\cHatje^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHa_Xb0%lI
+a2Ys4^V-A%&f;W5-7UT%1cRT]5XIk.84lQN:/=\`;,L4i;c6Lj:f1(d:JFGQ8P)HA69dXr3]JuP/L_
+ti,&sNt_8415aiVWFaN2HDcd0n^cHatje^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHa_Xb0%`Ea2Gj.[
+AF?G)':(N.k`Y83BTMm6q0^>9MJ>\;H$Ln<E3(#<`W4"<)cjs;c-:a9he8P7RKL.5<V%c1G::-,pFM
+7_na.+b0%iJaiVWFa2l?Ccd1.le^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHa_YbKIuIa2>g$M[^=<+=
+/Hf0Jk^K4?l2&84cHK:Jath<E<1&=BJ^/>$4s0=BJ[,<`Dsn:f'n\8Ol6=6U<pu3&NHE.jlPbD7.="
+_84%3b0%lKaiVZHaN2o^e^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHa\UaNDTD`P8=8%MTg',q:N%1cI
+K[5XS"492&)W;H$Rs=BSg2>?b?<?!LT<>?b<8=]\U%;c?Ri9hS)L7n#d04?5>X0eFdu+DA=!_Sj@0_
+o'X>b0%lKaiW)`e^`4#e^`4#e^`4#e^`4#e^`3tdF$@bcHaVUa2Gs;^o3D*'H/)?.PES93BKDj6q0^
+?:/Fed<*!+)>$P?=?=$uG?sd8I?=$oB>Zt61<`W3u:ejbZ91_WA5s@Cl2DQj4,9UX-^:hM&`5KR2bK
+@uMb0&8be^`4#e^`4#e^`4#e^`4#e^`3tdF$@ecHaVVb/VE>\I8u_)B^=U/i#@H4[25#7nHBL:f:7n
+='8^3?!^lG?t!JQ@q&kT@:<MM?<pc<=]ng+;c6Ff:/"8M77':(4#\oH.4$,ZZG*uc`Pod6`5KR:bKA
+Ace^`4#e^`4#e^`4#e^`4#e^`3tdF$7bcHFDSaN)')%1s9m+=/Hh1,_0W5XRt18k_uV;H6e#>$G9=?
+X[DR@q0%\An>L`A7T.Y@:3DH>[(?5<E)mp;,BtZ84H$75<Ce[/h87m*jW8i^:hG'`Pf^5`66]]e^`4
+#e^`4#e^`4#e^`4#e^`3tdF$7bcHaVVaN(Im&/6'+,q:N&2E<od6q0^>9M\J`<EE=->[:]F@Uiq[An
+G[hBP;$kAnGUbA7AqQ?<pf>=BAO'<)ZUf91_ZD69dOj1b^F-+WRl)^:h4o`l5p9`5L3Ve^`4#e^`4#
+e^`4#e^`4#e^`3tdF$7_bfe2L`P)Zi',_l<.P<J73BTPo7S-6I:Jati='Aj8?=75PA7fIfBk_9rCMR
+["C2%?oAn>I\@:3GJ>?Y03=&i-p:/+AQ7RB=%3AiNB-QsG>[_T\n^W+:5`PpBXe^`4#e^`4#e^`4#e
+^`4#e^`3tdF$7`bK7oH_j_)I(`jqN/i#=F4?l/$8P;fT;H$Rs=^59@@:EbZB4u$qCi!p)DJj<.Ci!m
+%BkM!f@q/qS?!LT;>$"^&;,C"\8OYs24?58R/1)KH]"5Dd^qd_*`l?QZe^`4#e^`4#e^`4#e^`4#e^
+`3tdF$:dc,[oD]F>Gg*?us`0f:sS5XIn192/5\<E<1(>@(]HA7T:cBkqR'Df9T6EH,u<E,TZ3ChdWr
+An>I\?s[,E>Zk-.<)ZXh91VN>5Wq.d0e=XoY.(pV^qmh%^rP!Ue^`4#e^`4#e^`4#e^`4#e^`3udaH
+CdccO&8$4djk+t"oq1cRT_6UaO<9i"Ye='8^2?!q,PAnPgnD/O<4EcZ;DF`heKFE2GBDf'9)BP1md@
+UWYO?<gZ9=&i0r:.n/K6pX!t2)$O-+Kr/`]>DG$_8+UOe^`4#e^`4#e^`4#e^`4#e^`3udaHIfbf[O
+)%MKa(-S$i+2`j5j77^$F:f:7n=^,0<?X[JWBkhI%E,p&CF`qqPG^+IXG'8%OF)c)7CM@HoARf1Y@:
+!2B=]\U%:ej\V84>j.3]/TA,pBJ)]=GPj_SOdQe^`4#e^`4#e^`4#e^`4#e^`3udaHIbai9bX&JuT9
+.PES93^,ht7nQKO;H-\!>?tTE@Uj"`CMe!0F*2\OG^4R[H@(!cH$FRYG'%_CD/=!$B4YUa@UNMJ>?P
+$-;c-=b91MB94ZP>P.3rH1[Cj/i_nssSe^`4#e^`4#e^`4#e^`4#e^`3rcd0q`b-D9_'ceMI/M]4F4
+[;D*8PDoX<*!+)>[LoLAS,UjD/aN;G'J:YH[C-fI=6NlI!^3dH$4=OEGfW/BkM'jA7AqR?!LQ8<`Ds
+n:.n)F5Wq(_/gr!?[(X/c]Yi:Me^`4#e^`4#e^`4#e^`4#e^`3tcHj_U`g[>L)BgFX0JtjR5XS"492
+8>`<`iO1?=78SB4u$sE-$2HG^=acI=?WoIt3'!IXQWlH[0jZFE)5:CMIQsAn5@Y?X?u@=B8F":eaPP
+6pNjn1G("iX1#FL]tDnGe^`4#e^`4#e^`4#e^`4#e^`3ud`]bL^'>/b*[N9h1H.B[6UjX?:/Fhg=B\
+s:?t*YZBkqR(Ecu_SH[L9lIt3'"JV&K)J:E&tI=$<dG'%bDD/=!&B4YU`@:3DH>$+g*;GU"Z7mfL&2
+_cj4X0o@E^:i(Ie^`4#e^`4#e^`4#e^`4#e^`3uda-4W"Ul(a+t,'!2EEue77^$F:f:7o=^59@@V'.
+bCMe!2Fa/7]IXcm!JV&K+K7no1JqAQ)Isl`kG^":OE,KN.BkV*i@q&hO>Zt93<)QLc8Oc'44#ScC.B
+U.j^V87Ke^`4#e^`4#e^`4#e^`4#e^`3uda-+F#S@ps-7^c-3BTPo7S6?M;H6e$>?tWGA7oUlD/XH;
+G^=dfJ:W<)KS5#4KnbA:KS4u1JU`,rH[9p[EcH#7CMINpARo4W?<pc<=&`$m9M.cA4ukDN.\F#W[^F
+Z9e^`4#e^`4#e^`4#e^`4#e^`3ud`]3)%2Bj-.5!D84?l/%84u]T;c[%*?!^rMAnYprDfTuFH[UBpJ
+qSf2L5(G<LPUbAL5(D9K7SQ%I=-?cF`VPADJX'$B4YR^?sd2D=B8?t:J=>K5s.%Z.k.g.\%1&>e^`4
+#e^`4#e^`4#e^`4#e^`-sd*&9l&K)]</29"B5!_V.92/5\<EE@/?XR>SBPM@%EHHDNI=Hg#KSG8;Lk
+pkDM2@+HLkgb?KnFr-IsufmGBS(KE,BB*BkM!f@UWVL>$+d';,9hU6U*Rg0._+K]=QPCe^`4#e^`4#
+e^`4#e^`4#e^`'kcGTeo'cePK0/GOK5=7q59i+_e<`rX5?t3_ZBl%[,FE`%YIt<6*L5:\CMMd:LMi3
+OPMM[1GLP1>5JU`/sH?aUTEGo]1C2%<lA7AqQ>?P$-;c-7]7RB6u1G1,`Za&'2e^`4#e^`4#e^`4#e
+^`4#e^`'l`4uWj)B^CY1,_0V5t"7::Jk(l=B]!;@:Wt`C2Ip2G'SIaJV/Z3Ll.+KN/W^TNK&pXN/NU
+OLk^V;Jq8H$I!^-^F)Z&8ChdZsAn,7V?!LQ8<DlUd8OYp-2_Ze_ZE_s1e^`4#e^`4#e^`4#e^`4#e^
+`3uadibQ*@**f1cRW`6UjX@:fC@r>$PBA@qB=gCi468H$k*lJq\u:MMmIRO,o?_O,o?`O,]-XMMR"A
+KS+l,IslZgFE2A>D/3m#B4YR]?s[)@=&`$l91M?63\r@%YI<!3e^`4#e^`4#e^`4#e^`4#e^`$p\c`
+HY+!rNn2EF#g7S-9K;,gV">[CfIA7oUlDK0`AH@CEtKnkJBNK0'\OckihP*1ukOcPQ_N/EFIL4t;4J
+Ui/pG'%eFDf'<*BP(db@:*>F=]SHt9hIl@4>niBXfg4)e^`4#e^`4#e^`4#e^`4#e^_jf\d&fb+Xes
+!3'9Go7nZQQ;H6e%>[LoMAnYprDfU#HI"6j'LP^qKO-#KePE_;rPa%DsPECrfNf/gQLkg_<K7SN"H$
+4=OEGo]0C1q3i@pr_L>$"^%:J45G5<(DJS?18ke^`4#e^`4#e^`4#e^`4#e^`'gS-p#N,UtK*3Bf_t
+85)fW<*!.+?=78SB527$EHHGPIY!0-M2R@SOcu#pQ'[i(Q^=#)QB[PqO,f3XMMR%BKS+i)H['^UEc>
+o5CM@EmA7AqP>?P!+;,'YP5s$nSB!Kn:e^`4#e^`4#e^`4#e^`4#e^`!a"Uu7j-7pu34?u8'8PN#[<
+`iO2?X[GVBPVL)F*;hWJV/Z4MiNj\PEhH$R$jD3R[KS3R$O#%OcYT_N/<@GLPCG3I<p-\F)c/:ChdW
+qARf.U>Zt61<)?7Z6U!F]-E#DEe^`4#e^`4#e^`4#e^`4#e^`'a#7qdt.5*M<5!h\09MSGa<`r[6@:
+Nk]Bl%^.Fa/:`Jq]#<NKB<fQC"#/S=Q4BSt)@AS!o_1P`h/iNJi[NM2-e:IXHEbF`VPAD/3j!An>FZ
+?<p`:<DlRa7R0!h-`>MFe^`4#e^`4#e^`4#e^`4#e^`*T#nn:(.krqD5=7n49i+bg=B]!;@Us+cCMe
+$3G'SLeKSPGDO-5cpR@Bb=TV8'RU7n6PSt2@=QB[PoO,f0XMi!1@J:;ijG'%eEDJa0(BP(da?s[)@=
+&Vph7m]<p.;RJae^`4#e^`4#e^`4#e^`4#e^`*J$Pa^0/Mf@K5X\+7:/Fnj=^,3?@qKChD/XE9GC+g
+kL5CkLOd2<'SY)UNUo(#dVl$;dU7n0KR?j)$OcYWaNJiUHJq/8qG]e+KE,KK-BkM!e@:*;D=B/3n8O
+P^".q-uYe^`4#e^`4#e^`4#e^`4#e^_nF$l0p4/i,LN6:FF<:/Otl=^5<B@qB=hDK'Z>G^P$pLPq1T
+Pa@i1U84]dX/rD)XfSS'Vkg&ZS=#V-PEV,iNf8gMKRnT!G^"7MEGo`2BkV'g@:3AF=B8<p8jtp&/0N
+Kne^`4#e^`4#e^`4#e^`4#e^_hF%2^6:0/YdT6Uj[B:f::p>$YKEA7oUlDK0cBH@CI"M2dU\Q^aVBW
+3!2-ZF%$I[C!9FY,eIqT:;::Q^*euOH,6TKnFl&H?aRSEc>o4C1q6k@pr\K=]\Nu91D0+/g/]pe^`4
+#e^`4#e^`4#e^`4#e^_YB%iQZC0fM3\77^'H;,gV">[CiKAS>gpDfKoEH[g^(MiX'fS"QUXYdM!O]=
+kqn^:h4k[^3*7UnF9KR@';)P)kT[LP12+H[0gWF)c,8CM@HoA7AqP>?Fm&9h7T30dG6!e^`4#e^`4#
+e^`4#e^`4#e^_VB&/ulF1,qE`77g0K;H6e%>[LoLAnYssE,p)HI"6m+N0'<nT;J]q\%BAi_8F73`l5
+m5^:L_UWMH5\SXPq3P`^uaM1pM0I!KpYF)c,8ChdZsARf.U>Zk**:.[f81*tK$e^`4#e^`4#e^`4#e
+^`4#e^_G=&f`2K1,qE`7S6EQ;c[")?!h&OAnc$uEH?;KI=d32Nfoa"UoUf2]tqV+aN2NIbKJ&L`koE
+uYGn@nT:MF<Q'7;hMM?_4I!KpZFE2><D/3m"An5@Y?!:9,:.dr<2($l(e^`4#e^`4#e^`4#e^`4#e^
+_M?&fi8L1,h?_7S6EQ<**4-?=@>TB5)1"EHHDNIY3E6O->s&Vm!SB_8OC:bg"J\d*U+`bK%K4[B?O,
+US+0HQ^!VmMhcq8I<p0_F`VP@D/<s#B4PIZ?!:<.:J+)?2(-r)e^`4#e^`4#e^`4#e^`4#e^_A;'-/
+AM1H7Na7S6EQ<**7/?X[GVBPM@%EHHDNIY3H8OHc3,WNs(K_T0gCcdC4keC<!rccjGH]<nfCW2#uTR
+?`qrMhct9I=$6`F`VPADJa0'B4YR\?<UE/:J4,?2(-r)e^`4#e^`4#e^`4#e^`4#e^^Z''-8JP1c[c
+f7nZTS<EE@0?XdPXBPVI'EclSQIY3H8Od2B0WjB:P_oBjEdF?e#g"G$0e'H1U^Upt]Xf%nbR[0.uN/
+3.<IX??aF`_YDDf'9)BOt[]?<^N2:J4,?1apo)e^`4#e^`4#e^`4#e^`4#e^^l.'d"eV2*4&k84u`V
+<ENI3?t3b\BkqR)F*2_SItNN8Od;K2X0fLT`Q66KeC`R5hVR)Cf@/$e`501!Z`BpqS=,Y)NJW@?Isl
+WfG'%eFDf0B+BP(da?X-`6;+sGD2CR,+e^`4#e^`4#e^`4#e^`4#e^^f-'d+nX2*4&k85)fX<`rX5?
+t3b\BkqU*F*2_TItNQ9OHl<0WjB:P`Q??Of%T!=i8NVNg""Hma2Z*6\?Dj+T:2(/Nf&OBIslZhGBS(
+KE,KK-BkCmb?X-`6;+sJF2Cd8-e^`4#e^`4#e^`4#e^`4#e^^]*'d"eU2*4&k85)fW<`iR4?t*\[Bk
+qU*EclVRItWW;Od;K2WjB:O_o^0Nf%]'=iSibPg==Wrb/qcE]sOi;TU_@4Nf&RDJ:2ciG]n1LEGo]0
+BkCmb?X-]5:eX>D2Cm>.e^`4#e^`4#e^`4#e^`4#e^^i-'H\\T2**uj84u`V<ENF1?XdPXBkqU*F*2
+_TJ:r`;OHl6,WNj"J_oKsJf%]'<hr!;Ff@/*kbKJ,N_7-SFTq%L6O,JaFJ:;lkGBS(KEGo]0BkCma?
+X-]4:eXAE2Cd8-e^`4#e^`4#e^`4#e^`4#e^^W%'HSVS1cdig7nZWU<EE@0?X[GVBPVI'EclVRIY3H
+8OHc0)VQI5;^r=F@db!1+g=t<3e'H:^bK\;S`4<+MTq%L7O,JdHJ:;ijGBItIE,KK,BP(d`?X-]4:e
+O8B2Cd8-e^`4#e^`4#e^`4#e^`4#e^^T&'H\\T1c[cf84u`V<ENF1?X[JVBPMC&EccMOIY*<3O->p$
+U8bB*]YVS/c-XnfeC;spcH=5LbKnPZ`P&OTU7@R6O,A^FJUVumG]n1LE,KK,BP(a_?X-`6:eO8B2(I
+/,e^`4#e^`4#e^`4#e^`4#e^^T&'HSSQ1H@Wd7nQNR<**7.?=@>TB5)1"EH?;KI=[*0Nfo]sT;8Hj[
+_'8i`Q-'Ab08)QaMbs6aNi/W`kA[WTq%L6O,A[EJ:2ciGBItHDf'<*BOt[]?<^N2:eO5@2(I/,e^`4
+#e^`4#e^`4#e^`4#e^^]('-/AM1H@Wc7S6BP<**4,?=78SB5).!E-$2JI=[*/NKKHmS=udZYHt^K]Y
+;+p_8=+-_SEn%a3;oUa1\dXU7@U7O,A[EIslZhGB@nGDf'9(B4PIZ?!:<.:J+&=1b$u*e^`4#e^`4#
+e^`4#e^`4#e^^W%&f`/J1,qE`7S-<N;c[")?!q,PAnYssE,p)HI"6p-N0'6hR\$7MWN<;.['d?P\[o
+Db]=YYg`QZZRaM"mYU7I[8O,A[DIslWfG'%eFDf'9(B4YOZ>Zk**:.[i91apo)e^`4#e^`4#e^`4#e
+^`4#e^^]&&0)rH1,qE_77g0K;H6h&>[LoMAnc$tE,p)GH[pd*MiNpbR%0bAUo(,lXfnt6Za@-J[^Wf
+[_og9MaM+pXU7@R6Nf&RCIscQeG'%bDDJX'$B4PIY>Zk**:.[f80dkN%e^`4#e^`4#e^`4#e^`4#e^
+_#.%iQZC0fM3\6qBsH;,gV">[CiKAS>gpDfKlCH@LR&MN*^]QC455TVA6[W2co#YHY::ZF%'P_T9sF
+aM"jXU7@R5NJW=>IXHEbF`VSAD/3m"ARo4V>Zk'(9h7T40IG?#e^`4#e^`4#e^`4#e^`4#e^_)1%N-
+H>0K)!W6UsdE:fCCs>?tWGA7oUlDK0`AH@CF!M2RCVPa7]*SY)UOV5L8kX/rG+Yd1[J_8jaA`k8RTT
+q%I4NJN7<I=$6`FE2><ChdWqA7AqQ>?Fm&9LhB/0.#0!e^`4#e^`4#e^`4#e^`4#e^_55$l:$7/i5R
+P6:FI>:Jt1o>$PEC@qKCiD/aQ>H$k-pL5CkMOcu&tS"61FUSO`aW2ZeuY->7B^rFL;`4W@QTUV70N/
+*%9I<p-]FE2;:CM@Em@pr\K>$"Wu8k)$)/LArte^`4#e^`4#e^`4#e^`4#e^_eG$Pa^0/2B1I5t"7:
+:/Otk=^,0>@qB=gD/aN<GC"^iKntYHO-,ZmR%'Y=TqS6WV5L8lXKSq=^W"75_7HkLTUM+,Mhcn6I<p
+*[Ec>r6C1q3i@UNJG=B/3n845Qt.V%#Ze^`4#e^`4#e^`4#e^`4#e^_kH$POL*.krqD5XS"59i"Ye=
+'Aj9@V'1dCi466Fa/:aKSG>ANK96eQC+,3StD[MUSXidWi`M6]u.k/^pgJDT:(n'M1pP1H[0dVEGo]
+0BkM!e@:!2A<`;de7mT3m-u.;_e^`4#e^`4#e^`4#e^`4#e^_T"$5"1#.53V?5!h\/928>`<`r[6@:
+Nn_C2Im/FE`%[JqSo:N/j!_Q'Rf+S"6.CTq\?[W2m,/]>;G'^9t&;SX>S"LkL;+H?XLQE,KK,BP(da
+?s[&><DlR`76`ab-E>VHe^`4#e^`4#e^`4#e^`4#e^_Pt#nRpr-n[;84?u8(8ki,[<ENI3?t*\[Bkq
+U*F*2bUItNH2Mi<^ZPE_B#R@B_;T:hsTVQ$]']"l2!]X4]4S!K.oLOt#&G]n1LE,BB)B4PIZ?<gZ8<
+)H@\6Tm:Y,-BDGe^`4#e^`4#e^`4#e^`4#e^_p4$P+!o-7gl03^,l!85)fW<EE@/?=@>TB527$EHHD
+NI=['+M2R@SOckrpQ^O;3SY)RLUo18t\A#eo]!83+R?WbhKRnT!GBIqFDJX'#An,7V>Zt60;GTqU69
+@"R@*7$Me^`4#e^`4#e^`4#e^`4#e^_p=3t2iB,:P6$3'9Gn7nZTS;c[")?!h#NAnYssDfTrEH[gX$
+LP^qKO-#NhQ'[l+S"-(CU8=im[Cj8f\?;^!QB@,]Jpr)mG'%_BChdWqA7AqP>?Fm':J45H5WLSIUsI
+TAe^`4#e^`4#e^`4#e^`4#e^_j>5mn5@+!rNn2**of77g0K;H6e$>[CfJAS5^mD/aQ>H$t3qKnkMCN
+K0-aPEhH#R@9Y;TVJEdZb!f][&g!jPE(KQJUMffF`MG<CM@Em@piVI=]\Nu9M%Z=4>nf<Wm0)Ee^`4
+#e^`4#e^`4#e^`4#e^_s@U^dnM*@*'e1cRT_6q9jE:fC@r>$YKEA7fIgCi=<8GC"^gJq\u:Mi<^YOc
+tuoQC+,2StVsZYdV*OZ)F:\OG\aCIX?<^EcGu5C1q3h@:*;D=&i-o91M<43AN'ma3iGfe^`4#e^`4#
+e^`4#e^`4#e^`-HUd5G&)BgIZ0fD'V6:FF<:/Otk=^,3?@Us%`CMe$2Fa/7^J:iQ2M2R@RO-#KfPa7
+Z(S"?=NXKo7>XJ;5IN.uq5H['^TEGo]/BP(da?sQu=<`;gh8OYm+2(g5Tcct"je^`4#e^`4#e^`4#e
+^`4#e^`$ET198"(EOhN0/PXO5XS"49i+_f='Aj8?t*YZC2@d,EclYTIY!-*LP^qJNK0'^PE_?!R%'Y
+@Vld/(VO`s3LkC2)H$4:MDf'9(B4PI[?<gW6;c-:_7m]?u0e4WTcd((ke^`4#e^`4#e^`4#e^`4#e^
+`'HWgO>*',hu@/2B+E5!_V.928>_<`iR2?=@>UBPM@$E-$2JI"-^#KnkMBMi<XVOHPckQ'[r1Tr+cc
+SsGCnKReGqG'%_BDJNs!ARf+S>Zt60;,0bT6pNdj/h1S[dF?^se^`4#e^`4#e^`4#e^`4#e^`0SWMW
+/m%M^!/.PES:4$Q)%8PDoW<*!+)?!h&OAnYpqDK0cAH$k'lK8#&8Ll%%KNfT9`P*D6!R\$.AQB$cRJ
+:)WdFE2;9CM@Em@pr_L=]e[&:eXDK5s.(\.k%aKda?Uqe^`4#e^`4#e^`4#e^`4#e^`3NXf/*Y$5+7
+"-S-r/3B]Yr84lTP;H-_#>[CfIA7fLiD/XE9GBnUdJV/W0L51VDN/`gWO-#KfPa7VuNJE+7I!KmWEc
+5f1BP1md@:*;D=&i-q:.duA4ZG5L.\=`-daQase^`4#e^`4#e^`4#e^`4#e^`$LY-=cj#7_Li,:P3"
+2`j5j77^'G:f::q>$PBA@Us(aCMe!1FE`%ZIt<3(KS>2;M2I4LN/`dUNK/sRKn4YuGBItHDf'9(B4Y
+R\?<pc;<`;gh91VH83A`?;-Der6daQase^`4#e^`4#e^`4#e^`4#e^`*WY,n_&5m\,@+!iBi1cRT^6
+:OO>:/Oqi=B\s9?t*\[BkhL'EHHDNI"$QrJqJc3LPUbBM2@%ELPLS7I=$6_FE2><Chm`tAR](S>Zt6
+1;c$1\7moU(2D?U/WQiQ1dF6Xre^`4#e^`4#e^`4#e^`4#e^`3][^WEC5R\)9)^-R[0f:sR5XS%59M
+\Mb<`iO1?=@>SAnc$tDfKlBH$apfIt<3(KS5&5KnY24Jq8DuH$4=OEGo]0BkV*h@UNMI>$"^&;,0bS
+6pNmo1Fst_Wlrf7c-t4ne^`4#e^`4#e^`4#e^`4#e^`'\]XY)GX#gRu(EOeM/i#=G5!_S,8ki)Z<*!
++*?!^oJAS5^mCi=<7G'J:ZI"$QqJUrB'JqAQ&IXHHcF`MJ?DJX'$B4YU_?s[)A=B/6q:.n,G5s71`/
+h&02`R*#YdEpFoe^`4#e^`4#e^`4#e^`4#e^`'[]Y1h^WgsP,',hu?.PES:4$Q&#7nQHN;H-\!>$PB
+A@V'.bC2@d,F*)SMH$amcI=6NlIXQTiH$FIQEGo]1C2%<mA7AqR?<gW7<Du^g8k2984ZG8O.48Q(bg
+=bbe'cdse^`4#e^`4#e^`4#e^`4#e^`-\]Y(kc\?&%&%M]p+-S$l-3'9Dl77TsE:Jt.m=B]!;@:Nh[
+BPM@$E,fo?G'A1UH?jd^H?jaYF`VPAD/=!%BP(gc@:3DH>?P$,;c-:^7moX+3A`B<-R>A/cd0nae'l
+jte^`4#e^`4#e^`4#e^`4#e^`3]]=Y_g]!nS)#nRjl+t"oq2)m]_6:FF<9i"Yd<`iR3?=78RAnPgnD
+/O93F)uGGG'.qNG'.nIEGo]1C2%?nARf1X?<pc<=B8F":JOPR6pNmq2(pF*,bN&ucd1"dd*gIpe^`4
+#e^`4#e^`4#e^`4#e^`*X\[oAa]=bSC6OFDB*[<'b0f:sR5=7n292/2[<*!+*>[CfIA7]CfC27[(E,
+]c9EcQ2@EcQ,:DJX'%BP1md@UWVM>Zt61<Dudk9M.iE5s74c0e4RrUV=aoc-aqcdaH[re^`4#e^`4#
+e^`4#e^`4#e^`'`_RR.f\%0)[8eDLG)':+Q/i#=F4?u8&84uZR;H-\">$PBA@:Nk]BPD3tD/F--Df9
+Q3Df0E-CM@EnARo7Y?XI)C=]e^(;G^+^8Oc*64utPT/12WDWQNN2bL"V`daH[re^`4#e^`4#e^`4#e
+^`4#e^`*a_83Xk\[oA^[A!p:'H/&>.P<J63B]Vp77^'G:f:7n=BSj7?XR>RAS,UiC2.L!Ci!p(Chma
+!BP(gb@UWVM>[1H7<`N'q:JFJR7RB=%3AiK@-R'\5b0A2Vcd'h_daH[re^`4#e^`4#e^`4#e^`4#e^
+`3c^qmk'\%&lT\@YHA%hop),q1H%2E<ob6UaO=9i+_e<EE=-?!^oJ@q91aB4kmkBk_9qBkM$iARf1V
+?XI)C=]ed,;c6Fd91_WB69dOj1b^I.+W[&oc-=PZcHsk^daH[re^`4#e^`4#e^`4#e^`4#e^`3a^V@
+S"_83Lg\@Ak?$kO-l+=/Hh1,_-T5=.e092/2Z;H-_#>?kKA?t*VVA7T7`AnGXeAn5C]@UNPK>[(B6<
+`N*t;,9kX7n#d24utVX/h/1k)k+[cbfS/Ud*U.ddaH[re^`4#e^`4#e^`4#e^`4#e^`'f^:q=r^VIY
+#\$`WS:C[sO)^$FV/i#:E4?l/$7nQHM:f:7n=BSj6?=.)K@:<VT@q0"Y@prbQ?X?u@=]ng+;c6Ig9h
+S&J6pX%"3ArWE.4$)UT?>*obKeDYcHsqddaH[re^`4#e^`4#e^`4#e^`4#e^`*ga2c67^:q@s]sP2W
+\60ga'cJ2@.4m833'9Dl6q9gA9i"Yd<`W@->[:WA?=$uH?smAM?X@#D>Zt93<`N-t:eshZ8k;E=5Wh
+(e2)$U1,T]pM_8sX;aj/2WcHsqddaH[re^`4#e^`4#e^`4#e^`4#e^`3i`l?$:a2bm-^;%FkZaX$Z'
+,DK.,Uk<"2)mZ]5t"158ki)Y;H-\!=]np4>?kH>?!U`A>[(B7=]\X';Gp@f9hS)L7RTR-4?,2R/h87
+m*`\lQb0%rObg+J[d*U.fdaH[re^`4#e^`4#e^`4#e^`4#e^`3g`Pog9`l?$<]tM.l]X5+K+VY\0+!
+`6d0Jk^L4[;>%7nQHM:Jk%j<EE4&=BSg2=]np2=]\[*<E)mo:JOYX8k;E>69dUo2`*3>-m]uV;3f/A
+b0%oOcHOMZd*U.fdaH[re^`4#e^`4#e^`4#e^`4#e^`0e_o'F2_o9U7`l>[)]tV.oHrC^o)'1"N/2&
+b:3BTJk6q9g@9MSD];H$Ln<E3(#<`W7%<E)mp;G^.a91qlJ7RTR.4ZbY]1+k%'+s.ed[_]l(b/qlOc
+HaY\d*U.fdaH[re^`4#e^`4#e^`4#e^`4#e^`'kbfn;K_o'F2`5T^7`k8jn^9:K`(E"5;-7UT%2)mZ
+]5XRt184lQN:/=Y^;,U:i;GpCj;,C%`9h\2P7n6$:69m^r3&WQH/1;bd*`S*7`59O7bKJ)Pc-=M[d*
+U.fdaH[re^`4#e^`4#e^`4#e^`4#e^`*kbKS2Sbfn;K_o'C1`59L4]XYX]-5II=+<r9c0/GLH4?c%t
+6q9d>8kVfN9hnGY9hnGY9h\2P8Ou?@6UF((4ZbV]1GCC0,pFEO<LLbEa2uBAbKJ)Rc-=V^d*U.fdaH
+[re^`4#e^`4#e^`4#e^`4#e^`0lb0.uObKJ)PaNVlF_Sa:/_83XnZsOO`)''kI.P<G42`Wu`5XIh+7
+7Kd<8P)NG8P)KF84Q-=6pj:,5!;"h2`3?E/1Dni+Wh\d[)9i&a2uHFai_lQc-=V^d*U.fdaH[re^`4
+#e^`4#e^`4#e^`4#e^`3laiVZHb0%lJb0.uObKJ)G^;Ik+^UgFJ'c.c0,:=rm0JbUH3]oSj5X@\'6p
+sI36psF26UF((5!;"h3B&fP0J4k(,p=?O*J0Wq^W4C5aiVZJaN;]Oc-=V^d*U4hdaH[re^`4#e^`4#
+e^`4#e^`4#e^`3kaN2HDaN2KFaiVZIb0%lLb0.uC_8=%%A1A<1)]p:O.4d,-1c@9P3]fGe5!D.p5!D
+.n4?P\d3&WWN1,(=3-mg2^*ZZ1uOMe]G`l#d9aN2NIb0/&Sc-=V^d*U4hdaH[re^`4#e^`4#e^`4#e
+^`4#e^`3tdF$@hdF$%VaN)6?aN2KFaiVWDb0%Q6_6.5t',DK,+XAEa/1rV21,CdG2`EZS3&`cS2)R0
+G0J>%0.ju_i+<;C>),?("]u7k/`PTR7aMl<Eb0A2Uc-O_^cd1%fdaH[re^`4#e^`4#e^`4#e^`4#e^
+`3tdF$@hdF$@hdF$=gdE'DMaN2HDaN;ECai:p'?<Sln(E+;;,:4cd.P!)'/h\k20/"t2/1`;$.4->c
++Wh[B()B>aO1;m<_o'F2`l?*?aNDZJb0A2Uc-O_^cd1%fdaH[re^`4#e^`4#e^`4#e^`4#e^`3tdF$
+@hdF$@hdF$@hdF$=gdF$@hdE';JaMc0@a25Ju>VHg,)B0\<+<i'W,paia-71#a,9e<T*ZQ(8().BHI
+>G;=^VIY"_8F41`Q,s:b0%lLbg"DWc-O_^cd1%fdaH[re^`4#e^`4#e^`4#e^`4#e^`3sd*U.dd*U.
+dd*U.ccHsqbd*U.dd*U.dccsh`cGRT<^W'Ve0f0CQ',;9!(Dmu+)&X8-'bh>q&J#:489K`j[(!W[]t
+V4m^V[n+`5T[3aN2HEbKJ)PbKeDYcHahbdF$Lpe^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`
+4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e
+^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4
+#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^
+`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#
+e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#e^`4#~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+stroke gsave	%% draw gray scale smooth box
+maxcolors 0 gt {/imax maxcolors def} {/imax 1024 def} ifelse
+6183 280 translate 275 4591 scale 0 setlinewidth
+/ystep 1 imax div def /y0 0 def /ii 0 def
+{ 0.99999 y0 sub g 0 y0 N 1 0 V 0 ystep V -1 0 f
+/y0 y0 ystep add def /ii ii 1 add def
+ii imax ge {exit} if } loop
+grestore 0 setgray
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 N
+275 0 V
+0 4591 V
+-275 0 V
+0 -4591 V
+Z stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+6458 280 M
+-63 0 V
+stroke
+6542 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-5)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 M
+63 0 V
+212 765 R
+-63 0 V
+stroke
+6542 1045 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1045 M
+63 0 V
+212 765 R
+-63 0 V
+stroke
+6542 1810 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1810 M
+63 0 V
+212 765 R
+-63 0 V
+stroke
+6542 2575 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 2575 M
+63 0 V
+212 765 R
+-63 0 V
+stroke
+6542 3340 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 15)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3340 M
+63 0 V
+212 765 R
+-63 0 V
+stroke
+6542 4105 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4105 M
+63 0 V
+212 766 R
+-63 0 V
+stroke
+6542 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 25)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4871 M
+63 0 V
+1.000 UP
+stroke
+LTb
+LCb setrgbcolor
+grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    %%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 2
