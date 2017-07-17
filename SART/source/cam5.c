@@ -12,6 +12,8 @@
 #include "../headers/poinit_coe.h"
 #warning "Compilation Error"
 
+//Hacer la proyección primero y aplicarla a cada píxel y no hacer la proyección para cada píxel.
+
 #define PATH "/home/pablo/local.git/pablo"
 #define pi 3.141592
 #define DOSPI
