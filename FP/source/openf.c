@@ -148,11 +148,11 @@ float x0[5]={2, 1, -2, 10, 0};
 
 float y0[5] ={2, 1, 2, -10, 0};
 
-float ax[5]={2.1, 20, 10, 3, 4};
+float ax[5]={2.1, 20, 10, 3, 40};
 
-float bx[5]={1, 30, 7, 13, 2};
+float bx[5]={1, 30, 7, 13, 20};
 
-float val[5]={1.0, 5, 23, 40, 20};
+float val[5]={1.0, 5, 2.3, 4, 2};
 
 int NElip =(int) (sizeof(bx)/sizeof(bx[0]));
 printf("Nelip = %d", NElip);
